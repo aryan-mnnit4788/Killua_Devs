@@ -1,7 +1,7 @@
 # Killua_Devs
 MNNIT AVISHKAR INNODEV TEAM
 PROJECT:
-DORA STUDY GROUP
+DORA's STUDY GROUP
 TEAM NAME: Killua_Devs
 TEAM Members
 1. Aryan Gupta (20205043)    (aryan-mnnit4788)
