@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e24ca19239.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/indexstyle.css">
+    <link rel="stylesheet" href="/css/login.css">
+     
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+        <a class="navbar-brand" href="#"><i class="fa-sharp fa-solid fa-graduation-cap fa-2x"></i>
+            Killua_devs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">AboutUs</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Profile
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <img src="/images/download.png" class="dropdown-item avatar" style="border-radius: 8rem; width: 8rem;
+                        text-align: center; margin:auto">
+                        <p class="dropdown-item" style="text-align: center;" href="#">USER</p>
+                   
+
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i> contactUs</a>
+                </li>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <section id="middle">
+        <h1 style="padding-top: 24px;">join your group! </h1>
+        <form action="/users" method="post" id="joinGroups-form" style="padding-top: 50px;">
+            <div class="input join" style="margin-top: 5px;"><label for=""><i class="fa-solid fa-envelope"></i></label>  <input type="text" name="email" placeholder="email"></div>
+            <div class="input join" style="margin-top: 5px;"><label for=""><i class="fa-solid fa-key"></i></label><input type="text" name="password" placeholder="password"></div>
+            <div class="input join" style="margin-top: 5px;"><label for=""><i class="fa-solid fa-file-signature"></i></label><input type="text" name="groupName" placeholder="groupName"></div>
+            <div class="input join" style="margin-top: 5px;"><label for=""><i class="fa-solid fa-code"></i></label><input type="text" name="groupCode" placeholder="groupCode"></div>
+            <button class="login-submit-button">Join</button>
+        </form>
+    </section>
+
+    <footer>
+
+        <div style="display: inline-block;">
+
+            <a  href="mailto:aryanbsz4788@mail.com?subject=Re:%20Letter%20to%20invoice&body=%0A%0A%0ADear%20ladies%20and%20gentlemen%2C%0Aplease%20send%20me%20the%20invoice." class="social-media-icon"><i class="fa-regular fa-envelope fa-2x"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100009584895554" class="social-media-icon"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/i.m_aryan_03/" class="social-media-icon"><i class="fa-brands fa-instagram fa-2x"></i></a>
+
+        </div>
+        <div style="margin-bottom: 2rem; padding-bottom: 3rem;">
+            <i class="fa-sharp fa-solid fa-graduation-cap fa-2x"></i>
+            <p style="display: inline-block;">©Killua_devs-2022</p>
+        </div>
+    </footer>
+    <script src="/js/joinGroups.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.input
+{
+    padding: 1rem;
+    
+}
+input
+{
+    width: 15rem;
+    color: black;
+    border-bottom: 1px solid black;
+     box-shadow: 2px #B2B2B2;
+     border: #00ABB3;
+     border: none;
+     background-color: #b2b2b2e0;
+     border-bottom: 1.5px solid black;
+     width: 20rem;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(19, 8, 8);
+    opacity: 1; /* Firefox */
+  }

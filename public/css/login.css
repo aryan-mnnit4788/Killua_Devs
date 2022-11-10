@@ -1,0 +1,64 @@
+.login-submit-button
+{
+    border: 1px solid black;
+    width: 5rem;
+    background-color: #b2b2b26f;
+    width: 10rem;
+    display: block;
+    margin-top: 5vh;
+    margin-left: 42vw;
+    border-radius: 2rem;
+    box-shadow: 3px coral;
+    
+}
+#middle
+{   height: 25.8rem ;
+   
+}
+h1
+{
+    padding-bottom: 0;
+}
+#middle-div
+{
+    background-color: #b2b2b2e0;
+}
+
+#login-form
+{  text-align: center;
+    padding: 3rem;
+    padding-top: 0.5rem;
+    padding-right: 5rem;
+    padding-left: 2rem;
+
+}
+
+.email
+{
+    margin: 3rem;
+    margin-left: 3rem;
+}
+.password
+{
+    margin-right:2.7rem;
+}
+label
+{   font-size: 1.3rem;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    margin-top: 0.3rem;
+}
+input {
+    
+    color: black;
+    border-bottom: 1px solid black;
+     box-shadow: 2px #B2B2B2;
+     border: #00ABB3;
+     border: none;
+     background-color: #b2b2b2e0;
+     border-bottom: 1.5px solid black;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(19, 8, 8);
+    opacity: 1; /* Firefox */
+  }
